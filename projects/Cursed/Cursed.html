@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Cursed</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template" style = "background: url(../../images/wall.png);">
+    <div style="width: 60%; height: 2000px; background-color: #333333; position: absolute; left: 20%;">
+		<p class="header"><span>Unity WebGL Player | </span>Cursed</p>
+		<div class="template-wrap" style = "top: 400px;">
+		<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+		<br>
+		<div class="logo"></div>
+		<div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+		<div class="title">Cursed</div>
+		</div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/Cursed.data",
+    codeUrl: "Release/Cursed.js",
+    memUrl: "Release/Cursed.mem",
+    
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+
+	<h1 style="position: relative; left: 45%; color: #e8e8e8;">Cursed</h1>
+
+	<div style="height: 32%;"></div>
+	<h1 style="position: relative; left: 33%; color: #e8e8e8;">Controls at the Bottom</h1>
+	<br/>
+	<a href="https://github.com/Anthony-Touchet/Were-Project"><h1 style="position: relative; left: 40%; color: #e8e8e8;">Link to Repo</h1></a>
+	<br/>
+	<p>This project was a game jam that took place over the over a whole month. This project’s goal was to get people to work together and for everyone to learn how to contribute to a project. This was also a chance for everyone to show off what they have learned in the first year so far and to get us comfortable with Unity. We were able to pick partners and I picked the same partner from the 8 Hour Game Project.</p>
+	
+	<br>
+	
+	<h1 style = "color: #e8e8a8; margin-left: 475px; font-size: 40px;">Controls:</h1>
+	<p style="line-height: 60px; margin-left: 100px; text-align: center;">
+		W or Up Arrow to Move Up<br/>
+		A or Left Arrow to Move Left<br/>
+		D or Right Arrow to Move Right<br/>
+		S or Down Arrow to Move Down<br/>
+		F to Drop Items<br/>
+	</p>
+
+	</div>
+  </body>
+</html>
