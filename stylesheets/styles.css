@@ -836,9 +836,8 @@ section #title .credits.right {
   }
 
 #bodyDiv{
-	position: absolute;
+	margin: auto;
 	left: 30%;
-    top: 0;
 	width: 785px;
 	background-color: #333333;
 }
