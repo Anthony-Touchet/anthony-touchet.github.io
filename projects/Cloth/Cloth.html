@@ -37,8 +37,12 @@
 	<div style="height: 35%;"></div>
 	<a href="https://github.com/Anthony-Touchet/Physics"><h1 style="position: relative; left: 40%; color: #e8e8e8;">Link to Repo</h1></a>
 	<br/>
-	<p></p>
-
+	<p>This is a simulation of cloth using spring-damper forces, gravity, and wind. The SpringConst slider controls how much “spring” are in the springs, or how powerful the springs are. The DampingFactor slider controls how much to dampen the force of the spring. If this variable was zero, the cloth would look very liquid like since none of the force is lost in the springs. Gravity is the force acting on the individual particles pushing them towards a certain direction. Lastly, using aerodynamic forces and triangles, wind can be applied to the cloth to make it appear as if a constant wind was applied to it. </p>
+	<p>	Gravity is applied to each particle, white sphere, in the scene, spring-damper forces are applied between it and each of its neighbor, and the wind forces are applied for each triangle made of spring-dampers. This simulation also includes walls like the Boids Project, but the user can also make particles anchors and tear particles off of the cloth. This tearing feature will see if any particle is a certain amount away from a neighbor that has a spring-damper to it. If the distance is too great, the spring-damper will be destroyed and any triangle connected with that particle will be destroyed. </p>
+	<p>Controls:</p>
+	<p>Left click on particle: Make Particle anchor</p>
+	<p>Right click and hold: Drag on the Particle</p>
+	
 	</div>
   </body>
 </html>
